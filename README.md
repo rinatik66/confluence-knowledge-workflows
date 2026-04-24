@@ -2,18 +2,25 @@
 
 Patterns for moving Markdown-based working knowledge into structured Confluence workflows.
 
-## Why
+## Why this exists
 
-Many teams think in Markdown first: notes, incident writeups, meeting summaries, backlog drafts, research logs. But execution and long-term discoverability often live in Confluence. The gap between those two worlds creates duplication and operational drag.
+Many teams naturally work in Markdown first: notes, incident writeups, meeting summaries, backlog drafts, research logs. But long-term discoverability and institutional memory often live in Confluence. Without a clean bridge between those formats, teams duplicate work, lose structure, and create documentation debt.
 
-This repository documents a workflow for reducing that gap.
+This repository documents patterns for reducing that gap.
+
+## What it solves
+
+- duplication between source notes and final wiki pages
+- inconsistent structure across meetings and projects
+- weak links between notes, backlog items, and follow-up actions
+- documentation that becomes hard to reuse after publication
 
 ## What is inside
 
 - templates for Markdown pages that convert cleanly into wiki documentation
 - patterns for publishing structured notes into Confluence spaces
-- conventions for linking notes, meetings, backlogs, and follow-up pages
-- examples of source note shapes that are friendly to later publishing
+- conventions for linking meetings, backlogs, incidents, and follow-up pages
+- examples of source note shapes that remain useful before and after publication
 
 ## Typical use cases
 
@@ -27,7 +34,7 @@ This repository documents a workflow for reducing that gap.
 ## Design principles
 
 - write once in a format that remains reusable
-- keep note structure stable across meetings and projects
+- keep note structure stable across documents
 - prefer compact operational summaries over long prose
 - preserve source context, links, and decisions
 - keep documentation close to task systems and execution workflows
@@ -48,7 +55,7 @@ This repository documents a workflow for reducing that gap.
 
 ## Positioning
 
-This repository is about knowledge operations, not just documentation. The goal is to make notes reusable by product, analytics, operations, and engineering teams.
+This repository is about knowledge operations, not just documentation. The goal is to make working notes reusable by product, analytics, operations, and engineering teams.
 
 ## License
 
